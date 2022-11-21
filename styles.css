@@ -1,0 +1,11 @@
+.content{
+	border-style: solid;
+	height: 80vh;
+	width: 80vw;
+}
+
+#drag{
+	position: absolute;
+	background: black;
+	color:  white;
+}
