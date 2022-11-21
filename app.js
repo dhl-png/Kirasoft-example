@@ -52,14 +52,3 @@ function move(x,y){
 
 	drag.style.transform = `translate(${x}px,${y}px)`
 }
-
-
-const timing = {
-	duration: 1000,
-	iterations: 1,
-}
-
-function fling(x,y){
-	let dest = {transform: `translate(${x},translate${y})`}
-	drag.animate({transform: translate})
-}
